@@ -31,5 +31,6 @@ module.exports = {
   uploadPath: config['upload.path'],
   maxFileSize: parseInt(config['upload.maxFileSize'], 10),
   maxFiles: parseInt(config['upload.maxFiles'], 10),
+  databasePath: config['database.path'],
   env
 };
